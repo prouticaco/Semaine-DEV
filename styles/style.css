@@ -1,0 +1,35 @@
+nav.menu{
+  background: #ED6023;
+}
+
+nav.menu ul{
+  display: flex;
+  flex-direction: row;
+}
+
+nav.menu ul li{
+  list-style: none;
+  position: relative;
+}
+
+nav.menu ul li:after{
+  content:"|";
+  position:absolute;
+  right: 0;
+  top:10px;
+  color:#FFFFFF;
+}
+
+nav.menu ul li a{
+  color:white;
+  background: #ED6023;
+  padding:10px 20px;
+  display: block;
+  text-decoration: none;
+  transition: all 0,25s ease-in;
+  will-change: auto;
+}
+
+nav.menu ul li a:hover{
+  text-decoration: underline;
+}

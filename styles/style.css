@@ -1,59 +1,81 @@
-nav.menu{
-  background: #ED6023;
+#menu{
+list-style: none;
+text-decoration: none;
+}
+#menu, #menu ul{
+padding:0;
+margin:0;
+list-style:none;
+text-align:center;
+text-decoration: none;
+}
+#menu li{
+display:inline-block;
+position:relative;
+border-radius:8px 8px 0 0;
+}
+#menu ul li{
+display:inherit;
+border-radius:0;
+}
+#menu ul li:hover{
+border-radius:0;
+}
+#menu ul li:last-child{
+border-radius:0 0 8px 8px;
+}
+#menu ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+#menu li:hover ul{
+max-height:15em;
+}
+/* background des liens menus */
+#menu li{
+background-color: #dd8596;
+background-image:-webkit-linear-gradient(top, #65537A 0%, #2A2333 100%);
+background-image:linear-gradient(to bottom, #65537A 0%, #2A2333 100%);
 }
 
-nav.menu ul{
-  display: flex;
-  flex-direction: row;
+#menu li li{
+background:#dd8596;
 }
 
-nav.menu ul li{
-  list-style: none;
-  position: relative;
+#menu li:first-child:hover, #menu li:first-child li:hover{
+background:#dd8596;
 }
-
-nav.menu ul li:after{
-  content:"|";
-  position:absolute;
-  right: 0;
-  top:10px;
-  color:#FFFFFF;
+#menu li:nth-child(2):hover, #menu li:nth-child(2) li:hover{
+background:#dd8596;
 }
-
-nav.menu ul li a{
-  color:white;
-  background: #ED6023;
-  padding:10px 20px;
-  display: block;
-  text-decoration: none;
-  transition: all 0,25s ease-in;
-  will-change: auto;
+#menu li:nth-child(3):hover, #menu li:nth-child(3) li:hover{
+background:#dd8596;
 }
-
-nav.menu ul li a:hover{
-  text-decoration: underline;
+#menu li:last-child:hover, #menu li:last-child li:hover{
+background:#dd8596;
 }
-
-nav ul li ul a{
-  display: block;
-  padding: 15px 30px;
-  text-decoration: none;
-  transition:all 0.5s ease-in;
-  background-color: #FF0000;
-  color: white;
-  will-change: auto;
+/* les a href */
+#menu a{
+text-decoration:none;
+display:block;
+padding:8px 32px;
+color:#dd8596;
+font-family:arial;
 }
-
-nav ul li ul a:hover{
-  background-color: #FFFFFF;
-  color:red;
+#menu ul a{
+padding:8px 0;
 }
-
-nav ul li ul:hover{
-  display:none;
-  position: absolute;
-  top:100%;
-  left:0%;
-  width: 200px;
-  padding: 0;
+#menu li:hover li a{
+color:#dd8596;
+text-transform:inherit;
+}
+#menu li:hover a, #menu li li:hover a{
+color:#dd8596;
 }

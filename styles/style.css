@@ -33,3 +33,27 @@ nav.menu ul li a{
 nav.menu ul li a:hover{
   text-decoration: underline;
 }
+
+nav ul li ul a{
+  display: block;
+  padding: 15px 30px;
+  text-decoration: none;
+  transition:all 0.5s ease-in;
+  background-color: #FF0000;
+  color: white;
+  will-change: auto;
+}
+
+nav ul li ul a:hover{
+  background-color: #FFFFFF;
+  color:red;
+}
+
+nav ul li ul:hover{
+  display:none;
+  position: absolute;
+  top:100%;
+  left:0%;
+  width: 200px;
+  padding: 0;
+}

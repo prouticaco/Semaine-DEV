@@ -125,17 +125,18 @@ background-color:#dd8596;
 }
 
 .logomaison{
-  margin-right: 20px;
+  margin-left:20px;
+  margin-right:2px;
   width:30px;
 }
 
 .logopanier{
-  margin-left:10px;
+  margin-left:220px;
   width:30px;
 }
 
 .logoprofile{
-  margin-left:10px;
+  margin-left:20px;
   width:50px;
 }
 

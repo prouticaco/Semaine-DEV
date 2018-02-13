@@ -116,4 +116,10 @@ background-color:#dd8596;
   .menu{
     display: none
   }
+  div a img{
+    width: 45%;
+    height: 45%;
+    padding: -20;
+    margin: -20;
+  }
 }

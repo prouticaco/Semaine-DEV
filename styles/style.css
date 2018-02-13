@@ -9,6 +9,7 @@ body{
  margin:0 auto 0;
  display:block;
  position:relative;
+ z-index: 30;
 }
 
 .menu ul {
@@ -87,22 +88,6 @@ body{
  background:#dd8596;
  color:white;
 }
-
-.sousmenu ul{
- display:none;
-}
-.sousmenu:hover ul {
-   display:block;
- }
-
-.sousmenu ul li a:hover {
-  background: transparent;
-  background-color: white;
-  color:#dd8596;
-  border-top: 1px solid #dd8596;
-  border-bottom: 1px solid #dd8596;
- }
-
  @media only screen
  and (min-device-width : 375px)
  and (max-device-width : 667px)

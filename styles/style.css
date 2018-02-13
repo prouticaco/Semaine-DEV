@@ -129,6 +129,20 @@ background-color:#dd8596;
   width:30px;
 }
 
+.logopanier{
+  margin-left:10px;
+  width:30px;
+}
+
+.logoprofile{
+  margin-left:10px;
+  width:50px;
+}
+
+#search{
+  width:100px;
+}
+
 @media screen and (min-width: 200px) and (max-width: 1024px){
   .navbar{
     visibility: visible;

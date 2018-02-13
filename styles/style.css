@@ -2,9 +2,13 @@ body{
   margin:0;
   padding: 0;
 }
-
+.navbar{
+  visibility: hidden;
+  height: 0;
+  padding: 0;
+}
 .menu {
-  background-color:#dd8596;
+background-color:#dd8596;
  width:100%;
  margin:0 auto 0;
  display:block;
@@ -88,7 +92,28 @@ body{
  background:#dd8596;
  color:white;
 }
- @media only screen
- and (min-device-width : 375px)
- and (max-device-width : 667px)
- and (orientation : landscape) { /* STYLES GO HERE */}
+
+
+/********MAIN**********/
+
+.topics{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 960px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .navbar{
+    visibility: visible;
+    height: auto;
+    color: #dd8596;
+  }
+  .navbar.navbar-4 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=BFE100');
+}
+  .menu{
+    display: none
+  }
+}

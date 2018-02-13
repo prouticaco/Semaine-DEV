@@ -118,6 +118,11 @@ background-color:#dd8596;
   height: auto;
 }
 
+.logo{
+  display: flex;
+  width: 500px;
+  margin:auto;
+}
 
 @media screen and (min-width: 200px) and (max-width: 1024px){
   .navbar{
@@ -134,10 +139,13 @@ background-color:#dd8596;
   div a img{
     width: 55%;
     height: 55%;
-    padding: -20;
-    margin: -20;
+    padding:-20;
+    margin:-20;
   }
   .navbar{
     font-size: 25px;
+  }
+  .logo{
+    display: none;
   }
 }

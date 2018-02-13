@@ -131,8 +131,30 @@ h3{
   margin:auto;
 }
 
+<<<<<<< HEAD
 
 /******MEDIA QUERIES*******/
+=======
+.logomaison{
+  margin-left:20px;
+  margin-right:2px;
+  width:30px;
+}
+
+.logopanier{
+  margin-left:220px;
+  width:30px;
+}
+
+.logoprofile{
+  margin-left:20px;
+  width:50px;
+}
+
+#search{
+  width:100px;
+}
+>>>>>>> 88d7723d4b59f50fdff824f35d9d319e1de0c472
 
 @media screen and (min-width: 200px) and (max-width: 1024px){
   .navbar{

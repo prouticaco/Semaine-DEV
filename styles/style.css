@@ -46,11 +46,11 @@ body{
  border-bottom: 1px solid #dd8596;
 }
 
-.menu ul li:hover ul {
+.menu ul li:hover .menu1{
  display:block;
 }
 
-.menu ul li ul {
+.menu ul li ul.menu1 {
  width:230px;
  position:absolute;
  top:100%;
@@ -87,3 +87,23 @@ body{
  background:#dd8596;
  color:white;
 }
+
+.sousmenu ul{
+ display:none;
+}
+.sousmenu:hover ul {
+   display:block;
+ }
+
+.sousmenu ul li a:hover {
+  background: transparent;
+  background-color: white;
+  color:#dd8596;
+  border-top: 1px solid #dd8596;
+  border-bottom: 1px solid #dd8596;
+ }
+
+ @media only screen
+ and (min-device-width : 375px)
+ and (max-device-width : 667px)
+ and (orientation : landscape) { /* STYLES GO HERE */}

@@ -124,6 +124,11 @@ background-color:#dd8596;
   margin:auto;
 }
 
+.logomaison{
+  margin-right: 20px;
+  width:30px;
+}
+
 @media screen and (min-width: 200px) and (max-width: 1024px){
   .navbar{
     visibility: visible;

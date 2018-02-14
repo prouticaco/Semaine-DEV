@@ -16,7 +16,12 @@ div img{
   margin-top: 10%;
 }
 
+<<<<<<< HEAD
 a:hover {
   text-decoration: none;
   color: #dd8596;
+=======
+input{
+  margin-left: 20px;
+>>>>>>> 872b7f8e40e206da0ece58b22b4b46f18acd2b6d
 }

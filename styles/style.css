@@ -7,7 +7,7 @@ body{
 }
 .logo{
   display: flex;
-  width: 500px;
+  width: 30%;
   margin:auto;
 }
 .logomaison{
@@ -24,6 +24,12 @@ body{
 .logoprofile{
   margin-left:20px;
   width:50px;
+}
+
+.logomaison{
+  margin-left:20px;
+  margin-right:2px;
+  width:20px;
 }
 
 #search{
@@ -67,11 +73,6 @@ padding:0 9px;
 color:#666;
 }
 
-@media screen and (max-width: 1040px){
-  #recherche input[type=text] {
-    font:300 24px HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  }
-}
 
 /*******MENU******/
 
@@ -102,16 +103,15 @@ color:#666;
 
 .menu ul li a {
  display:block;
- text-align:center;
- font-size:1rem;
- font-weight:800;
+ font-size:1.1rem;
+ font-weight:700;
  text-decoration: none;
  background:#dd8596;
  border-top: 1px solid transparent;
  border-bottom: 1px solid transparent;
  color:white;
  padding:12px 38px;
- font-family:Open Sans, Arial, sans-serif;
+ font-family:'Open Sans', Arial, sans-serif;
 }
 
 .menu ul li a:hover {
@@ -166,10 +166,45 @@ color:#666;
 
 
 /********MAIN**********/
+#carouselExampleControls + div > h2.text-center{
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+.containerimg {
+  position: relative;
+  width: 50%;
+}
 
+.overlay {
+  z-index: 20000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 2.5%;
+  right: 0;
+  height: 90%;
+  width: 95%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #dd8596;
+}
 
+.containerimg:hover .overlay {
+  opacity: 0.9;
+}
 
-/******TOPICS****/
+.text {
+  color: white;
+  font-size: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 200000;
+}
+
+/******ARTICLE****/
 
 .row{
   position: relative;
@@ -189,11 +224,7 @@ h3{
   position: relative;
 }
 
-.logomaison{
-  margin-left:20px;
-  margin-right:2px;
-  width:20px;
-}
+
 
 /******ARTICLES************/
 
@@ -202,6 +233,10 @@ article > h4{
   margin-bottom: 5%;
 }
 
+div + div.bg-light {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
 div + div.bg-light {
   padding-top: 2.5%;
   padding-bottom: 2.5%;
@@ -218,10 +253,9 @@ footer > div{
   height:290px;
 }
 
-
-
 footer div img{
-  width: 9%;
+  width: 10%;
+  height: 5%;
   margin-right:10px;
 }
 
@@ -242,6 +276,7 @@ a:hover {
 
 @media screen and (max-width: 1040px){
   .navbar{
+    font-family:'Open Sans', Arial, sans-serif;
     visibility: visible;
     height: auto;
     color: #dd8596;
@@ -258,7 +293,29 @@ a:hover {
   .logo{
     display: none;
   }
+  #recherche input[type=text] {
+    font:300 24px 'HelveticaNeue-Light', "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
 }
+
+@media screen and (max-width: 444px){
+  .logo{
+    display: none;
+  }
+  nav.menu{
+    display: none
+  }
+  .navbar{
+    font-family:'Open Sans', Arial, sans-serif;
+    visibility: visible;
+    height: auto;
+    color: #dd8596;
+  }
+  .logo_doucepo{
+    width: 175px;
+  }
+}
+
 
 
 /*****PAGE PRODUIT******/

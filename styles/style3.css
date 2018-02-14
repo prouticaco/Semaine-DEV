@@ -15,3 +15,8 @@ div img{
   margin-bottom: 10%;
   margin-top: 10%;
 }
+
+a:hover {
+  text-decoration: none;
+  color: #dd8596;
+}

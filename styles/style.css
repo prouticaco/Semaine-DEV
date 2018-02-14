@@ -147,9 +147,9 @@ h3{
   padding: 0 0 10% 10%;
 }
 
-.col img{
+.col-sm-3 img, .col-sm-6 img{
   width: 100%;
-  height: auto;
+  height: 90%;
   position: relative;
 }
 
@@ -158,16 +158,18 @@ h3{
   margin-right:2px;
   width:20px;
 }
-=======
+
 /******ARTICLES************/
 
-
+article > h4{
+  margin-top: 1%;
+}
 
 
 
 /******MEDIA QUERIES*******/
 
-@media screen and (min-width: 200px) and (max-width: 1054px){
+@media screen and (max-width: 1040px){
   .navbar{
     visibility: visible;
     height: auto;
@@ -189,6 +191,7 @@ h3{
 
 
 /*****PAGE PRODUIT******/
+
 main > article > #carouselExampleControls{
   width: 500px;
   height: auto;

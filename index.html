@@ -5,8 +5,10 @@
     <title>Douce de Po</title>
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta name="description" content="Ceci est la description de ma page"/>
-    <link rel="stylesheet" href="styles/style.css"/>
+    <meta name="keywords" content="bébé, vêtements, ">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css"/>
   </head>
   <body>
     <header>
@@ -19,7 +21,7 @@
               <li class="nav-item">
                 <form id="recherche" method="post">
                   <input name="saisie" type="text" placeholder="Rechercher..." required />
-                  <input class="loupe" type="submit" value="" />
+                  <input class="loupe" type="submit"/>
                 </form>
               <li class="nav-item">
                 <a class="nav-link" href="#">Les Collections<span class="sr-only">(current)</span></a>
@@ -65,12 +67,11 @@
               <li><a href="#">Protège carnet de santé</a></li>
               <li><a href="#">Serviette de table</a></li>
               <li><a href="#">Tapis à langer nomade</a></li>
-              <li><a href="#">Trousse</a></li>
               <li><a href="#">Accesoires</a></li>
               <li><a href="#">Doudous</a></li>
       		  </ul>
       	  </li>
-      	  <li><a href="#">Personaliser</a>
+      	  <li><a href="#">Personnaliser</a>
       		  <ul class="menu1">
       			  <li><a href="#">Prénom en tissus</a></li>
       			  <li><a href="#">Coussin prénom</a></li>
@@ -88,8 +89,8 @@
         </div>
       </nav>
     </header>
-    <main>
-      <div id="carouselExampleControls" class="carousel slide col" data-ride="carousel">
+    <main class="container">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block w-100" src="images/img1.jpg" alt="First slide">
@@ -113,7 +114,7 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <div class="container">
+      <div>
         <div class="row">
           <div class="col-sm-6">
             <h3 class="text-white">Aux Pays des rêves</h3>

@@ -153,10 +153,14 @@ color:#666;
  background:#fff;
  color:#dd8596;
  padding:7px 0 ;
- font-family:'Open Sans', Arial, sans-serif;
+ font-family: 'Indie Flower';
  width:230px;
  text-indent:8px;
  border:0;
+}
+
+.menu ul li a{
+  font-family: 'Indie Flower';
 }
 
 .menu ul li ul li a:hover {

@@ -27,6 +27,9 @@ body{
   width:100px;
 }
 
+nav > ul + .col-3{
+  margin-top: 0.5%;
+}
 /*******MENU******/
 
 .navbar{
@@ -176,14 +179,8 @@ h3{
   .navbar.navbar-4 .navbar-toggler-icon {
     background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=BFE100');
 }
-  .menu{
+  nav.menu{
     display: none
-  }
-  div a img{
-    width: 55%;
-    height: 55%;
-    padding:-20;
-    margin:-20;
   }
   .navbar{
     font-size: 25px;
@@ -191,4 +188,20 @@ h3{
   .logo{
     display: none;
   }
+}
+
+
+/*****PAGE PRODUIT******/
+main > article > #carouselExampleControls{
+  width: 500px;
+  height: auto;
+}
+main > article > .infos{
+  width: 800px;
+  height: auto;
+}
+.boutonsInteractifs{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
 }

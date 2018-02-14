@@ -329,17 +329,3 @@ h4{
 
 
 /*****PAGE PRODUIT******/
-
-main > article > #carouselExampleControls{
-  width: 500px;
-  height: auto;
-}
-main > article > .infos{
-  width: 800px;
-  height: auto;
-}
-.boutonsInteractifs{
-  width: 40%;
-  display: flex;
-  justify-content: space-around;
-}

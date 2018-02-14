@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
 body{
+<<<<<<< HEAD
   font-family: arial;
+=======
+  font-family: 'Indie Flower';
+>>>>>>> 1f786b91a966e86c4562543d21d0920ab02357a9
   margin:0;
   padding: 0;
 }
@@ -58,7 +64,7 @@ display:block;
 }
 
 #recherche input[type=text] {
-font:300 12px HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font:300 12px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 background:none;
 width:180px;
 padding:0 9px;
@@ -82,9 +88,8 @@ color:#666;
  background-color:#dd8596;
  width:100%;
  margin:0 auto 0;
- display:block;
- position:relative;
  z-index: 30;
+ justify-content: space-between;
 }
 .menu ul {
  padding:0;
@@ -102,7 +107,7 @@ color:#666;
 .menu ul li a {
  display:block;
  text-align:center;
- font-size:15px;
+ font-size:1rem;
  font-weight:800;
  text-decoration: none;
  background:#dd8596;
@@ -146,13 +151,13 @@ color:#666;
 .menu ul li ul li a {
  display:block;
  text-align:left;
- font-size:14px;
+ font-size:1rem;
  font-weight:500;
  text-decoration: none;
  background:#fff;
  color:#dd8596;
  padding:7px 0 ;
- font-family:Open Sans, Arial, sans-serif;
+ font-family:'Open Sans', Arial, sans-serif;
  width:230px;
  text-indent:8px;
  border:0;
@@ -167,13 +172,6 @@ color:#666;
 /********MAIN**********/
 
 
-/*******CAROUSEL******/
-
-#carouselExampleControls {
-  width: 80%;
-  height: auto;
-  margin: auto;
-}
 
 /******TOPICS****/
 
@@ -208,9 +206,13 @@ article > h4{
   margin-bottom: 5%;
 }
 
-article > h4 + div.bg-light{
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
+div + div.bg-light {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+article > div.bg-light.col-sm.row > img{
+  width: 10%;
+  height: 10%;
 }
 
 /**********FOOTER***********/
@@ -221,7 +223,8 @@ footer > div{
 }
 
 
-div img{
+
+footer div img{
   width: 9%;
   margin-right:10px;
 }

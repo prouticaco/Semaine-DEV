@@ -5,10 +5,17 @@
     <title>Douce de Po</title>
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta name="description" content="Ceci est la description de ma page"/>
+<<<<<<< HEAD
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css"/>
     <link rel="stylesheet"
      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+=======
+    <meta name="keywords" content="bébé, vêtements, ">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css"/>
+>>>>>>> 1f786b91a966e86c4562543d21d0920ab02357a9
   </head>
   <body>
     <header>
@@ -21,7 +28,7 @@
               <li class="nav-item">
                 <form id="recherche" method="post">
                   <input name="saisie" type="text" placeholder="Rechercher..." required />
-                  <input class="loupe" type="submit" value="" />
+                  <input class="loupe" type="submit"/>
                 </form>
               <li class="nav-item">
                 <a class="nav-link" href="#">Les Collections<span class="sr-only">(current)</span></a>
@@ -67,12 +74,11 @@
               <li><a href="#">Protège carnet de santé</a></li>
               <li><a href="#">Serviette de table</a></li>
               <li><a href="#">Tapis à langer nomade</a></li>
-              <li><a href="#">Trousse</a></li>
               <li><a href="#">Accesoires</a></li>
               <li><a href="#">Doudous</a></li>
       		  </ul>
       	  </li>
-      	  <li><a href="#">Personaliser</a>
+      	  <li><a href="#">Personnaliser</a>
       		  <ul class="menu1">
       			  <li><a href="#">Prénom en tissus</a></li>
       			  <li><a href="#">Coussin prénom</a></li>
@@ -90,8 +96,8 @@
         </div>
       </nav>
     </header>
-    <main>
-      <div id="carouselExampleControls" class="carousel slide col" data-ride="carousel">
+    <main class="container">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block w-100" src="images/img1.jpg" alt="First slide">
@@ -115,44 +121,42 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <div class="container">
+      <div>
+        <h2>LES NOUVELLES COLLECTIONS</h2>
         <div class="row">
           <div class="col-sm-6">
-            <h3 class="text-white">Aux Pays des rêves</h3>
+            <h3 class="text-black">Aux Pays des rêves</h3>
             <img src="images/col1.jpg">
           </div>
-          <div class="col-sm-3">
-            <h3 class="text-white">Mille Etoiles</h3>
+          <div class="col-sm-6">
+            <h3 class="text-black">Mille Etoiles</h3>
             <img src="images/col2.jpg">
           </div>
-          <div class="col-sm-3">
-            <h3 class="text-white">Douce Brise</h3>
-            <img src="images/col3.jpg">
           </div>
         </div>
         <div class="row">
           <div class="col-sm-3">
-            <h3 class="text-white">Balade en Forêt</h3>
+            <h3 class="text-black">Balade en Forêt</h3>
             <img src="images/col4.jpg">
           </div>
           <div class="col-sm-3">
-            <h3 class="text-white">Bouton d'Or</h3>
+            <h3 class="text-black">Bouton d'Or</h3>
             <img src="images/col5.jpg">
           </div>
           <div class="col-sm-6">
-            <h3 class="text-white">Petit Moussaillon</h3>
+            <h3 class="text-black">Petit Moussaillon</h3>
             <img src="images/col6.jpg">
           </div>
         </div>
       </div>
       <article class="container">
-        <h4 class="text-center">Les conseils pour bébés</h4>
+        <h4 class="text-center">Les petits astuces de Pollenni</h4>
         <div class="bg-light col-sm row">
           <img class="col-5" src="images/aide3.jpg">
           <div class="col-6">
-            <h5>Sommeil de bébé : comment l'aider à trouver son rythme</h5>
+            <h5>Réutiliser les bouts de tissus en trop pour fabriquer des petits doudous</h5>
             <p>
-              Après sa naissance, votre tout-petit a besoin de temps pour s’habituer à son nouvel environnement. Mais patience, il reconnaîtra bientôt les avantages d’un rythme stable et fera, en principe, ses nuits. Ouf !
+
             </p>
             <button type="button" class="btn btn-outline-primary">Lire la suite...</button>
           </div>
@@ -170,9 +174,8 @@
         <div class="bg-light col-sm row">
           <img class="col-5" src="images/aide1.jpg">
           <div class="col-6">
-            <h5>Aller au ski avec bébé, c'est possible ?</h5>
+            <h5>Mais où est-ce que je me procure mes matières pour faire mes produits ?</h5>
             <p>
-              Premier hiver pour votre bébé… et vous vous demandez si cette année vous pourrez profiter des joies des sports d'hiver. La montagne et le ski, vous adorez… Mais est-ce prudent et une bonne idée avec un tout-petit ? Oui, en suivant nos conseils !
             </p>
             <button type="button" class="btn btn-outline-primary">Lire la suite...</button>
           </div>
@@ -180,8 +183,8 @@
       </article>
     </main>
     <footer>
-      <div class="row">
-        <div class="col-xl-3 text-center">
+      <div class="row justify-content-around">
+        <div class="col-xl-2 text-center">
           <h4>NEWSLETTER</h4>
           <div>
             <form action="/search" id="searchthis" method="get">
@@ -191,13 +194,13 @@
             </form>
           </div>
         </div>
-        <div class="col-xl-3 text-center">
+        <div class="col-xl-2 text-center">
           <h4>QUI-EST DOUCE DE PO ?</h4>
             <div>
             </div>
           <h5><a class="text-dark" href="#">En Savoir +</a></h5>
         </div>
-        <div class="col-xl-3 text-center">
+        <div class="col-xl-2 text-center">
           <h4>LIENS UTILES</h4>
           <div>
           </div>
@@ -205,12 +208,20 @@
             <h5><a class="text-dark" href="#">Tous nos produits</a></h5>
             <h5><a class="text-dark" href="#">Personalisation</a></h5>
         </div>
-        <div class="col-xl-3 text-center" >
+        <div class="col-xl-2 text-center" >
           <h4>NOUS CONTACTER</h4>
           <div>
             <a href="https://www.facebook.com/"><img src="images/logofacebook.png" alt="logofacebook"></img></a>
             <a href="https://www.instagram.fr"><img src="images/logoinsta.png" alt="logoinsta"></img></a>
             <a href="#"><img src="images/contactemail.png" alt="mail"></img></a>
+          </div>
+        </div>
+        <div class="col-xl-2 text-center" >
+          <h4>NOS PARTENAIRES</h4>
+          <div>
+            <h5><a class="text-dark" href="#">MY HAPPY BOX DAY</a></h5>
+            <h5><a class="text-dark" href="#">PITIMANA</a></h5>
+            <h5><a class="text-dark" href="#">ZENELLA VIE</a></h5>
           </div>
         </div>
       </div>

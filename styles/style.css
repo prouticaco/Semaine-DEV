@@ -14,7 +14,6 @@ body{
 }
 
 .logopanier{
-  margin-left:220px;
   width:30px;
 }
 
@@ -27,7 +26,7 @@ body{
   width:100px;
 }
 
-nav > ul + .col-3{
+nav > ul + div{
   margin-top: 0.5%;
 }
 /*******MENU******/
@@ -162,7 +161,7 @@ h3{
 
 /******MEDIA QUERIES*******/
 
-@media screen and (min-width: 200px) and (max-width: 1024px){
+@media screen and (min-width: 200px) and (max-width: 1044px){
   .navbar{
     visibility: visible;
     height: auto;

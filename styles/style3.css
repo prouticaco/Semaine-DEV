@@ -2,7 +2,8 @@ footer > div{
   width:100%;
   height:290px;
   background-color:white;
-  border-color: black;
+  border-color:rgba(0, 0, 10, 0.3);
+  border-style: solid;
 }
 
 h4{
@@ -15,7 +16,7 @@ h4{
 }
 
 .ligne{
-  padding: 0px; margin: 0px; border: solid 1px #0B0719; width:160px;
+  padding: 0px; margin: 0px; border: solid 1px #dd8596; width:160px;
   margin-left: 85px;
 }
 
@@ -30,13 +31,17 @@ div img{
 }
 
 .ligne2{
-  padding: 0px; margin: 0px; border: solid 1px #0B0719; width:280px;
+  padding: 0px; margin: 0px; border: solid 1px #dd8596; width:280px;
   margin-left: 365px;
 }
 
-h5{
+.ensavoir{
+  color:black;
   width:200px;
-  margin-top: 300px;
+  margin-top: 30px;
   margin-left: 460px;
+}
+
+a:hover{
   text-decoration: none;
 }

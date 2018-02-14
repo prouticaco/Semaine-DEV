@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 body{
-<<<<<<< HEAD
-  font-family: arial;
-=======
   font-family: 'Indie Flower';
->>>>>>> 1f786b91a966e86c4562543d21d0920ab02357a9
   margin:0;
   padding: 0;
 }
@@ -225,7 +221,7 @@ footer > div{
 
 
 footer div img{
-  width: 9%;
+  width: 14%;
   margin-right:10px;
 }
 
@@ -234,13 +230,14 @@ footer div img{
   margin-top: 10%;
 }
 
-a:hover {
+a:hover{
   text-decoration: none;
   color: #dd8596;
 }
 
-
-
+h4{
+  color:#dd8595;
+}
 
 /******MEDIA QUERIES*******/
 

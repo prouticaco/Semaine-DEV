@@ -232,6 +232,11 @@ h3{
 
 /******ARTICLES************/
 
+.btn-secondary{
+  border-color: #DD8596;
+  background-color: #DD8596;
+  margin-top: 20px;
+}
 article > h4{
   margin-top: 5%;
   margin-bottom: 5%;
@@ -258,8 +263,8 @@ footer > div{
 }
 
 footer div img{
-  width: 10%;
-  height: 5%;
+  width: 8%;
+  height: 3%;
   width: 14%;
   margin-right:10px;
 }
@@ -271,7 +276,6 @@ footer div img{
 
 a:hover{
   text-decoration: none;
-  color: #dd8596;
 }
 
 h4{

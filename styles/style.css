@@ -162,7 +162,13 @@ h3{
 /******ARTICLES************/
 
 article > h4{
-  margin-top: 1%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+article > h4 + div.bg-light{
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
 }
 
 

@@ -236,12 +236,19 @@ h3{
 
 /******ARTICLES************/
 
+div > h2{
+  color:#dd8596;
+  font-size: 40px;
+}
+
 .btn-secondary{
   border-color: #DD8596;
   background-color: #DD8596;
   margin-top: 20px;
 }
-article > h4{
+article > h2{
+  font-size: 40px;
+  color: #dd8596;
   margin-top: 5%;
   margin-bottom: 5%;
 }

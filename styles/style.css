@@ -274,6 +274,9 @@ article > div.bg-light.col-sm.row > img{
 
 /**********FOOTER***********/
 
+footer{
+  background: #f8f9fa;
+}
 footer > div{
   width:100%;
   height:230px;
@@ -322,6 +325,9 @@ h4{
   #recherche input[type=text] {
     font:300 24px 'HelveticaNeue-Light', "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   }
+  body{
+    background: white;
+  }
 }
 
 @media screen and (max-width: 444px){
@@ -339,6 +345,9 @@ h4{
   }
   .logo_doucepo{
     width: 175px;
+  }
+  body{
+    background: white;
   }
 }
 

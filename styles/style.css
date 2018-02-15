@@ -209,7 +209,7 @@ color:#666;
   z-index: 200000;
 }
 
-/******ARTICLE****/
+/******COLLECTIONS****/
 
 .row{
   position: relative;
@@ -339,8 +339,4 @@ div.col-sm.d-flex.justify-content-center + img.col-sm.d-flex.align-items-center.
   width: 8%;
   height: 8%;
   margin: 0 auto;
-}
-
-article + div.row{
-
 }

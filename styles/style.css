@@ -122,6 +122,9 @@ color:#666;
  border-top: 1px solid #dd8596;
  border-bottom: 1px solid #dd8596;
 }
+.menu ul li a.liens_maison:hover{
+  background-color: #dd8596;
+}
 
 .menu ul li:hover .menu1{
  display:block;

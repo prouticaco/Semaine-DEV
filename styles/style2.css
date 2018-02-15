@@ -66,7 +66,7 @@ nav.container{
   padding-bottom: 20px;
   border-radius: 10px;
 }
-.btn-secondary {
+div.row.justify-content-center > button.btn.btn-secondary {
     color: white;
     border-color: #FFFFFF;
     background-color: #ffffff4f;

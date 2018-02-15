@@ -12,12 +12,17 @@
 </head>
 <body>
   <header>
-      <div class="navbar navbar-light light-blue lighten-4">
-        <a class="navbar-brand" href="../index.html"><img src="images/logodouce.png" alt="logo"></img></a>
+      <div class="navbar navbar-light light-blue lighten-4 burger">
+        <a href="../index.html"><img class="logo_doucepo" src="../images/logodouce.png" alt="logo"></img></a>
         <button class="navbar-toggler navbar-toggler-icon" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1"
             aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i class="fa fa-bars fa-1x"></i></span></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent1">
           <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <form id="recherche" method="post">
+                <input name="saisie" type="text" placeholder="Rechercher..." required />
+                <input class="loupe" type="submit"/>
+              </form>
             <li class="nav-item">
               <a class="nav-link" href="#">Les Collections<span class="sr-only">(current)</span></a>
             </li>
@@ -29,6 +34,12 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="../pages/qui_sommes_nous.html">Qui Sommes Nous?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Panier</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mon Compte</a>
             </li>
           </ul>
         </div>
@@ -56,12 +67,11 @@
             <li><a href="#">Protège carnet de santé</a></li>
             <li><a href="#">Serviette de table</a></li>
             <li><a href="#">Tapis à langer nomade</a></li>
-            <li><a href="#">Trousse</a></li>
             <li><a href="#">Accesoires</a></li>
             <li><a href="#">Doudous</a></li>
           </ul>
         </li>
-        <li><a href="#">Personaliser</a>
+        <li><a href="#">Personnaliser</a>
           <ul class="menu1">
             <li><a href="#">Prénom en tissus</a></li>
             <li><a href="#">Coussin prénom</a></li>
@@ -69,7 +79,11 @@
         </li>
         <li><a href="../pages/qui_sommes_nous.html">Qui Sommes Nous?</a></li>
       </ul>
-      <div>
+      <div class="d-flex flex-row">
+        <form id="recherche" method="post">
+          <input name="saisie" type="text" placeholder="Rechercher..." required />
+          <input class="loupe" type="submit" value="" />
+        </form>
         <a href="#"><img class="logopanier" src="../images/logopanier.png" alt="logopanier"></img></a>
         <a href="#"><img class="logoprofile" src="../images/logoprofile.png" alt="logoprofile"></img></a>
       </div>
@@ -84,7 +98,7 @@
           </div>
           <div class="col-md-8">
             <h2 class="text-center"> La créatrice </h2>
-            
+
             <p>Bercée par l’univers ludique et rêveur de l’enfance, Douce de Po c’est avant-tout un échange entre la créatrice et le client.
               Douce de Po, c’est également l’envie d’une maman rêveuse de faire découvrir son monde féérique et rempli de douceur à toutes celles qui viennent de donner la vie.
 
@@ -107,7 +121,6 @@
             </div>
           </div>
         </div>
-
         <article class="container">
           <div class="row">
             <div class="col-4">
@@ -120,7 +133,6 @@
                 <img src="../images/homemade.png" alt="logo home-made"/>
                 <h5 class="text-black text-center">artisanal</h5>
                 <p>Les produits sont longuement étudiés dans le but de combiner les plus belles matières et les plus beaux coloris. </p>
-
               </div>
               <div class="col-4">
                 <img src="../images/france.png" alt="logo france"/>
@@ -157,8 +169,52 @@
             <button type="button" class="btn btn-secondary">Voir plus</button>
           </nav>
         </main>
-
-
+        <footer>
+          <div class="row justify-content-around">
+            <div class="col-xl-2 text-center">
+              <h4>NEWSLETTER</h4>
+              <div>
+                <form action="/search" id="searchthis" method="get">
+                <img src="../images/logomail.png" alt="logomail"></img>
+                <input id="search" name="q" type="text" placeholder="Entrer une adresse mail" />
+                <input id="search-btn" type="submit" value="OK" />
+                </form>
+              </div>
+            </div>
+            <div class="col-xl-2 text-center">
+              <h4>QUI-EST DOUCE DE PO ?</h4>
+                <div>
+                </div>
+              <h5><a class="text-dark" href="#">En Savoir +</a></h5>
+            </div>
+            <div class="col-xl-2 text-center">
+              <h4>LIENS UTILES</h4>
+              <div>
+              </div>
+                <h5><a class="text-dark" href="#">Cadeaux</a></h5>
+                <h5><a class="text-dark" href="#">Tous nos produits</a></h5>
+                <h5><a class="text-dark" href="#">Personalisation</a></h5>
+            </div>
+            <div class="col-xl-2 text-center" >
+              <h4>NOUS CONTACTER</h4>
+              <div>
+                <a href="https://www.facebook.com/"><img src="../images/logofacebook.png" alt="logofacebook"></img></a>
+                <a href="https://www.instagram.fr"><img src="../images/logoinsta.png" alt="logoinsta"></img></a>
+                <a href="#"><img src="../images/contactemail.png" alt="mail"></img></a>
+              </div>
+            </div>
+            <div class="col-xl-2 text-center" >
+              <h4>NOS PARTENAIRES</h4>
+              <div>
+                <h5><a class="text-dark" href="#">MY HAPPY BOX DAY</a></h5>
+                <h5><a class="text-dark" href="#">PITIMANA</a></h5>
+                <h5><a class="text-dark" href="#">ZENELLA VIE</a></h5>
+              </div>
+            </div>
+            <div <class="barrebas">
+            </div>
+          </div>
+        </footer>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

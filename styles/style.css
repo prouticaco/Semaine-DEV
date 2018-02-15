@@ -2,8 +2,8 @@
 
 body{
   font-family: 'Indie Flower';
-  margin:0;
-  padding: 0;
+  margin:0 auto;
+  width: 100%;
   background-image: url(../images/fond.png);
 }
 .logo{
@@ -244,7 +244,7 @@ h3{
 /******ARTICLES************/
 
 h5{
-  font-size: 80%;
+  font-size: 1.5rem;
 }
 
 span.text{
@@ -344,6 +344,13 @@ h4{
   body{
     background: white;
   }
+  h5{
+    font-size: 1.4rem;
+  }
+
+  span.text{
+    font-size: 0.9rem;
+  }
 }
 
 @media screen and (max-width: 444px){
@@ -364,6 +371,9 @@ h4{
   }
   body{
     background: white;
+  }
+  h5{
+    font-size: 0.7rem;
   }
 }
 

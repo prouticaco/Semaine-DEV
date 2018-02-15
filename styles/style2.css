@@ -1,3 +1,101 @@
+/*----MENU--------*/
+.navbar{
+  visibility: hidden;
+  height: 0;
+  padding: 0;
+}
+.menu {
+ background-color:#dd8596;
+ width:100%;
+ margin:0 auto 0;
+ z-index: 30;
+ justify-content: space-between;
+}
+.menu ul {
+ padding:0;
+ margin:0;
+ list-style-type: none;
+}
+
+.menu ul li {
+ display:inline-block;
+ margin:0;
+ padding:0;
+ position:relative;
+}
+
+.menu ul li a {
+ display:block;
+ font-size:1.1rem;
+ font-weight:700;
+ text-decoration: none;
+ background:#dd8596;
+ border-top: 1px solid transparent;
+ border-bottom: 1px solid transparent;
+ color:white;
+ padding:12px 38px;
+ font-family:'Open Sans', Arial, sans-serif;
+}
+
+.menu ul .blanc a:hover {
+ transition-duration: 0.2s;
+ background: transparent;
+ background-color: white;
+ color:#dd8596;
+ border-top: 1px solid #dd8596;
+ border-bottom: 1px solid #dd8596;
+}
+
+.menu ul li:hover .menu1{
+ display:block;
+}
+
+.menu ul li ul.menu1 {
+ width:230px;
+ position:absolute;
+ top:100%;
+ display:none;
+ background: #dd8596;
+ padding-top:1px;
+ box-shadow: 0 0 8px #999;
+ -webkit-box-shadow: 0 0 8px #999;
+ -moz-box-shadow: 0 0 8px #999;
+ -o-box-shadow: 0 0 8px #999;
+ -ms-box-shadow: 0 0 8px #999;
+}
+
+.menu ul li ul li {
+ display:block;
+}
+
+.menu ul li ul li a {
+ display:block;
+ text-align:left;
+ font-size:1rem;
+ font-weight:500;
+ text-decoration: none;
+ background:#fff;
+ color:#dd8596;
+ padding:7px 0 ;
+ font-family: 'Indie Flower';
+ width:230px;
+ text-indent:8px;
+ border:0;
+}
+
+.menu ul li a{
+  font-family: 'Indie Flower';
+}
+
+.menu ul .blanc ul li a:hover {
+transition-duration: 0.2s;
+ background:#dd8596;
+ color:white;
+}
+
+
+/*----HEADER--------*/
+
 .container{
   background-color: white;
   font-family:"indie flower", sans-serif;

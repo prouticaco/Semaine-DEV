@@ -328,6 +328,9 @@ h4{
   body{
     background: white;
   }
+  footer{
+    background: white;
+  }
 }
 
 @media screen and (max-width: 444px){
@@ -347,6 +350,9 @@ h4{
     width: 175px;
   }
   body{
+    background: white;
+  }
+  footer{
     background: white;
   }
 }

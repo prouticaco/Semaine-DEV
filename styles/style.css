@@ -27,7 +27,7 @@ body{
 }
 
 .logomaison{
-  margin-left:20px;
+  margin-left:30px;
   margin-right:2px;
   width:20px;
 }
@@ -265,8 +265,6 @@ footer > div{
 footer div img{
   width: 8%;
   height: 3%;
-  width: 14%;
-  margin-right:10px;
 }
 
 .col-xl-3 > h4{
@@ -280,6 +278,7 @@ a:hover{
 
 h4{
   color:#dd8595;
+  margin-top: 22px;
 }
 
 /******MEDIA QUERIES*******/
@@ -329,3 +328,18 @@ h4{
 
 
 /*****PAGE PRODUIT******/
+
+
+.btn-success{
+  height: 20%;
+}
+
+div.col-sm.d-flex.justify-content-center + img.col-sm.d-flex.align-items-center.justify-content-center{
+  width: 8%;
+  height: 8%;
+  margin: 0 auto;
+}
+
+article + div.row{
+
+}

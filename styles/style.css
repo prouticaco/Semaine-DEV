@@ -76,6 +76,7 @@ padding:0 9px;
 color:#666;
 }
 
+
 /*******MENU******/
 
 header{
@@ -313,6 +314,13 @@ h4{
   .navbar.navbar-4 .navbar-toggler-icon {
     background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=BFE100');
 }
+@media screen and (max-width: 1040px){
+#recherche input[type=text] {
+  font:400 24px 'HelveticaNeue-Light', "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
+#recherche .loupe{
+  display: none;
+  }
   nav.menu{
     display: none
   }
@@ -321,9 +329,6 @@ h4{
   }
   .logo{
     display: none;
-  }
-  #recherche input[type=text] {
-    font:300 24px 'HelveticaNeue-Light', "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   }
   body{
     background: white;

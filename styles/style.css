@@ -116,7 +116,7 @@ color:#666;
  font-family:'Open Sans', Arial, sans-serif;
 }
 
-.menu ul li a:hover {
+.menu ul .blanc a:hover {
  transition-duration: 0.2s;
  background: transparent;
  background-color: white;
@@ -166,8 +166,8 @@ color:#666;
   font-family: 'Indie Flower';
 }
 
-.menu ul li ul li a:hover {
-  transition-duration: 0.2s;
+.menu ul .blanc ul li a:hover {
+transition-duration: 0.2s;
  background:#dd8596;
  color:white;
 }

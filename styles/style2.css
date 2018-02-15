@@ -1,6 +1,6 @@
 .container{
   background-color: white;
-  font-family: "indie Flower"
+  font-family:"indie flower", sans-serif;
 
 }
 .title{
@@ -32,7 +32,6 @@ div.col-md-6{
 article.container .row .col-4 img{
   width: 50px;
   height: 50px;
-  margin-left: 140px;
   margin-bottom: 20px;
   margin-top:30px;
 
@@ -68,18 +67,10 @@ nav.container{
   padding-bottom: 20px;
   border-radius: 10px;
 }
-
 .btn-secondary {
-    color: #dd8596;
-    background-color: white;
-    border-color: #d0b37d;
-    margin-left: 500px;
-    margin-top: 20px;
-}
-.btn-secondary:hover {
-    color: #fff;
-    background-color: #5a6268;
-    border-color: #545b62;
-}
+    color: white;
+    border-color: #FFFFFF;
+    background-color: #ffffff4f;
+    margin-top:20px;
 
-/* ------- FOOTER_______*/
+}

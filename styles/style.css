@@ -242,9 +242,13 @@ h3{
 
 
 /******ARTICLES************/
-.fleche{
-  width: 80px;
-  margin-left: 520px;
+
+h5{
+  font-size: 80%;
+}
+
+span.text{
+  font-size: 1.5rem;
 }
 
 div > h2{
@@ -322,7 +326,6 @@ h4{
   .navbar.navbar-4 .navbar-toggler-icon {
     background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=BFE100');
 }
-@media screen and (max-width: 1040px){
 #recherche input[type=text] {
   font:400 24px 'HelveticaNeue-Light', "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   }

@@ -233,7 +233,7 @@ h3{
 
 /******ARTICLES************/
 
-.btn-secondary{
+div.col-6.text-center.align-self-center > button.btn-secondary{
   border-color: #DD8596;
   background-color: #DD8596;
   margin-top: 20px;
